@@ -1,6 +1,11 @@
 # Asago UX
 
-A PatternFly 6 overview page reading “Asago design coming soon,” using the supplied Asago PNG logo.
+This repo is for:
+
+- Exploring and iterating on UI concepts
+- Sharing clickable designs with all stakeholders
+- Supporting user research and usability tests
+- Giving a shared artifact for design discussions
 
 ## Run locally
 
@@ -9,4 +14,3 @@ npm install
 npm start
 ```
 
-Open [http://localhost:4173](http://localhost:4173). Stop the server with `Ctrl+C`.
