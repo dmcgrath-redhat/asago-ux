@@ -1,0 +1,64 @@
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.pf-v6-c-page {
+  --pf-v6-c-page__main-container--MarginInlineStart: 0;
+  --pf-v6-c-page__main-container--MarginInlineEnd: 0;
+  --pf-v6-c-page__main-container--BorderColor: transparent;
+  --pf-v6-c-page__main-container--BorderBlockStartWidth: 0;
+  --pf-v6-c-page__main-container--BorderBlockEndWidth: 0;
+  --pf-v6-c-page__main-container--BorderInlineStartWidth: 0;
+  --pf-v6-c-page__main-container--BorderInlineEndWidth: 0;
+  --pf-v6-c-page__main-container--BorderRadius: 0;
+  min-height: 100vh;
+  background: #000108;
+}
+
+.pf-v6-c-page__main-container,
+.pf-v6-c-page__main,
+.pf-v6-c-page__main-section,
+.pf-v6-c-page__main-body {
+  min-height: 100vh;
+  background-color: #000108;
+}
+
+.coming-soon {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: clamp(1.5rem, 5vw, 4rem);
+}
+
+.coming-soon__card {
+  width: min(100%, 52rem);
+  background-color: #000108;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+
+.coming-soon__card .pf-v6-c-card__body {
+  padding: clamp(3rem, 10vw, 7rem) clamp(1.5rem, 6vw, 5rem);
+}
+
+.coming-soon__logo {
+  display: block;
+  width: clamp(10rem, 28vw, 18rem);
+  height: auto;
+  margin: 0 auto clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.coming-soon__card h1 {
+  color: #fff;
+  letter-spacing: -0.035em;
+}

@@ -1,17 +1,12 @@
-# Project Name
+# Asago UX
 
-<!-- TODO: Brief description -->
+A PatternFly 6 overview page reading “Asago design coming soon,” using the supplied Asago PNG logo.
 
-## Installation
+## Run locally
 
 ```bash
-uv sync
+npm install
+npm start
 ```
 
-## Usage
-
-<!-- TODO: Usage examples -->
-
-## License
-
-Apache 2.0 — see [LICENSE](LICENSE).
+Open [http://localhost:4173](http://localhost:4173). Stop the server with `Ctrl+C`.

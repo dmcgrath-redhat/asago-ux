@@ -1,34 +1,16 @@
-# Project Name
+# Asago UX
 
-<!-- TODO: Brief one-line description of what this project does -->
+## Current scope
 
-## Commands
+The local preview is a single overview page displaying “Asago design coming soon.” Keep the content minimal unless the product direction changes.
 
-```bash
-# Install / sync dependencies
-uv sync
+## UI foundation
 
-# Run all tests
-uv run pytest
-
-# Format + lint + type check
-uv run ruff format src/ tests/ && uv run ruff check src/ tests/ && uv run mypy src/
-
-# Lint (with auto-fix)
-uv run ruff check --fix src/ tests/
-
-# Format
-uv run ruff format src/ tests/
-
-# Type check
-uv run mypy src/
-```
-
-## Architecture
-
-<!-- TODO: Describe the high-level architecture -->
+- PatternFly 6 HTML/CSS is the component and token foundation.
+- The app uses PatternFly's Page, Card, and Title components.
+- `styles.css` is limited to page composition and product-specific visual treatment.
+- PatternFly is installed from the pinned npm dependency in `package.json`.
 
 ## Development
 
-- `AGENTS.md` is a symlink to `CLAUDE.md` — they are the same file.
-- DO NOT skip updating `CLAUDE.md`/`AGENTS.md` and `README.md` when changes require it.
+Run `npm install` once, then `npm start` and open `http://localhost:4173`.

@@ -1,0 +1,12 @@
+{
+  "name": "asago-ux",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Asago AI governance workflow prototype using PatternFly 6 HTML/CSS",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1"
+  },
+  "dependencies": {
+    "@patternfly/patternfly": "6.6.1"
+  }
+}
